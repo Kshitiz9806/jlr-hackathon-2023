@@ -1,0 +1,7 @@
+VSOMEIP_CONFIGURATION=../../Server/helloworld-local.json VSOMEIP_APPLICATION_NAME=service ./service
+
+VSOMEIP_CONFIGURATION=../../Cleint/helloworld-local.json VSOMEIP_APPLICATION_NAME=client ./client
+
+VSOMEIP_CONFIGURATION=../../Client/helloworld-local.json VSOMEIP_APPLICATION_NAME=client ./intruder
+
+VSOMEIP_CONFIGURATION=../../CopyCatIntruder/helloworld-local.json VSOMEIP_APPLICATION_NAME=copy_service ./copy_service
